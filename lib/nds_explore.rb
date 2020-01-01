@@ -14,5 +14,6 @@ def print_first_directors_movie_titles
     i = 0;
     while i < first_row_index.count do
       pp first_row_index[i][:title]
+      i += 1
   end
 end
