@@ -6,7 +6,7 @@ require 'pp'
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
   pp nds
-puts nds
+
 end
 
 def print_first_directors_movie_titles
@@ -14,3 +14,5 @@ def print_first_directors_movie_titles
     # while row_index < directors_database.count do
 
 end
+
+pp directors_db
